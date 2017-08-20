@@ -73,8 +73,8 @@ blockquote {
   margin-left: 3px;
   padding-left: 1em;
   padding-right: 1em;
-  border-left: 3px solid #89F431;
-  background-color: rgba(137, 244, 49, 0.15);
+  border-left: 3px solid #822DF3;
+  background-color: rgba(130, 45, 243, 0.15);
   text-align: justify;
 }
 blockquote * {
@@ -98,7 +98,7 @@ pre code {
 hr {
   border: 0;
   height: 2px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #DA2CDA, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #299AF1, rgba(0, 0, 0, 0));
 }
 table {
   text-align: justify;
@@ -123,7 +123,7 @@ td + td {
 }
 tbody tr:hover,
 tfoot tr:hover {
-  background-color: rgba(255, 109, 51, 0.15);
+  background-color: rgba(59, 59, 244, 0.15);
 }
 th,
 td {
@@ -144,6 +144,10 @@ fieldset {
   font-family: sans-serif;
   line-height: 1em;
   margin-bottom: 0;
+}
+fieldset legend {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 fieldset legend + * {
   margin-top: 0;
@@ -198,7 +202,7 @@ input[type=button] {
   vertical-align: middle;
   width: auto;
   margin-top: 0.25em;
-  background: #89F431;
+  background: #3B3BF4;
   color: #FAFAFA;
   text-shadow: 0px 1px 5px #081b23;
   cursor: pointer;
@@ -208,13 +212,13 @@ button:hover,
 input[type=reset]:hover,
 input[type=submit]:hover,
 input[type=button]:hover {
-  background: #63ce0b;
+  background: #0d0def;
 }
 button:active,
 input[type=reset]:active,
 input[type=submit]:active,
 input[type=button]:active {
-  background: #57b50a;
+  background: #0c0cd6;
 }
 button:disabled,
 input[type=reset]:disabled,
@@ -224,6 +228,114 @@ input[type=button]:disabled {
   color: rgba(8, 27, 35, 0.5);
   cursor: not-allowed;
   text-shadow: none;
+}
+button.success,
+input[type=reset].success,
+input[type=submit].success,
+input[type=button].success {
+  background: #89F431;
+}
+button.success:hover,
+input[type=reset].success:hover,
+input[type=submit].success:hover,
+input[type=button].success:hover {
+  background: #6ee60c;
+}
+button.success:active,
+input[type=reset].success:active,
+input[type=submit].success:active,
+input[type=button].success:active {
+  background: #63ce0b;
+}
+button.danger,
+input[type=reset].danger,
+input[type=submit].danger,
+input[type=button].danger {
+  background: #ff3333;
+}
+button.danger:hover,
+input[type=reset].danger:hover,
+input[type=submit].danger:hover,
+input[type=button].danger:hover {
+  background: #ff0000;
+}
+button.danger:active,
+input[type=reset].danger:active,
+input[type=submit].danger:active,
+input[type=button].danger:active {
+  background: #e50000;
+}
+button.warning,
+input[type=reset].warning,
+input[type=submit].warning,
+input[type=button].warning {
+  background: #FF9D33;
+}
+button.warning:hover,
+input[type=reset].warning:hover,
+input[type=submit].warning:hover,
+input[type=button].warning:hover {
+  background: #ff8500;
+}
+button.warning:active,
+input[type=reset].warning:active,
+input[type=submit].warning:active,
+input[type=button].warning:active {
+  background: #e57700;
+}
+button.first,
+input[type=reset].first,
+input[type=submit].first,
+input[type=button].first {
+  background: #3B3BF4;
+}
+button.first:hover,
+input[type=reset].first:hover,
+input[type=submit].first:hover,
+input[type=button].first:hover {
+  background: #0d0def;
+}
+button.first:active,
+input[type=reset].first:active,
+input[type=submit].first:active,
+input[type=button].first:active {
+  background: #0c0cd6;
+}
+button.second,
+input[type=reset].second,
+input[type=submit].second,
+input[type=button].second {
+  background: #299AF1;
+}
+button.second:hover,
+input[type=reset].second:hover,
+input[type=submit].second:hover,
+input[type=button].second:hover {
+  background: #0e81d9;
+}
+button.second:active,
+input[type=reset].second:active,
+input[type=submit].second:active,
+input[type=button].second:active {
+  background: #0d72c1;
+}
+button.third,
+input[type=reset].third,
+input[type=submit].third,
+input[type=button].third {
+  background: #822DF3;
+}
+button.third:hover,
+input[type=reset].third:hover,
+input[type=submit].third:hover,
+input[type=button].third:hover {
+  background: #680de0;
+}
+button.third:active,
+input[type=reset].third:active,
+input[type=submit].third:active,
+input[type=button].third:active {
+  background: #5c0bc8;
 }
 h1,
 h2,
