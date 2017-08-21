@@ -371,8 +371,8 @@ img {
     font-size: 11px;
   }
   body {
-    max-width: 94%;
-    margin-left: 5%;
+    max-width: 100%;
+    margin-left: 0;
     margin-right: 0;
   }
 }
