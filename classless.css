@@ -371,7 +371,7 @@ img {
     font-size: 11px;
   }
   body {
-    max-width: 100%;
+    max-width: 96%;
   }
 }
 @media print {
