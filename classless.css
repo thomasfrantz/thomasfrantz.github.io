@@ -74,7 +74,7 @@ blockquote {
   margin-right: 0;
   padding-left: 1em;
   padding-right: 1em;
-  border-left: 3px solid #822DF3;
+  border-left: 0.2em solid #822DF3;
   background-color: rgba(130, 45, 243, 0.15);
   text-align: justify;
 }
@@ -173,8 +173,8 @@ select:focus {
   box-shadow: 0px 1px 5px #a8c9fe;
 }
 textarea {
-  display: block;
   margin-top: 0.5em;
+  width: 100%;
 }
 label {
   cursor: auto;
