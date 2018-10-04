@@ -1,12 +1,12 @@
 /* TODO 
-Finir les bases
-Balises HTML5 (nav, section, article, ...)
-Framework pour cards, gridlayout et popup
-Responsive Design
-Faire un design pour print
-Version mal voyant (high contrast)
-Utiliser :before pour le pourcentage d'où on est dans l'article
-Faire un design pour resto
+V Finir les bases
+  Balises HTML5 (nav, section, article, ...)
+  Framework pour cards, gridlayout et popup
+  Responsive Design
+  Faire un design pour print
+  Peut-être Version mal voyant (high contrast)
+  Utiliser :before pour le pourcentage d'où on est dans l'article
+  Faire un design pour restaurant
 */
 html {
   font-size: 22px;
@@ -70,11 +70,11 @@ li + * {
 }
 blockquote {
   font-style: italic;
-  margin-left: 0.2em;
+  margin-left: 0.25em;
   margin-right: 0;
   padding-left: 1em;
   padding-right: 1em;
-  border-left: 0.2em solid #822DF3;
+  border-left: 0.25em solid #822DF3;
   background-color: rgba(130, 45, 243, 0.15);
   text-align: justify;
 }
@@ -89,7 +89,7 @@ pre {
   display: block;
   background-color: #081b23;
   color: #FAFAFA;
-  padding: 0.7em;
+  padding: 0.75em;
   overflow-x: auto;
   border-radius: 0.5em;
 }
@@ -128,7 +128,7 @@ tfoot tr:hover {
 }
 th,
 td {
-  padding: 0.4em;
+  padding: 0.5em;
 }
 form {
   letter-spacing: 0.1em;
@@ -139,7 +139,7 @@ form ol {
   padding-left: 0;
 }
 fieldset {
-  border-radius: 0.4em;
+  border-radius: 0.5em;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
   font-family: sans-serif;
@@ -158,9 +158,9 @@ textarea,
 select {
   letter-spacing: 0.1em;
   padding: 0.25em 1em;
-  border-radius: 0.4em;
+  border-radius: 0.5em;
   border: 1px solid rgba(8, 27, 35, 0.15);
-  font-size: 0.8em;
+  font-size: 0.75em;
   font-family: sans-serif;
   vertical-align: middle;
   width: auto;
@@ -195,7 +195,7 @@ input[type=reset],
 input[type=submit],
 input[type=button] {
   padding: 0.5em 1em;
-  border-radius: 0.4em;
+  border-radius: 0.5em;
   border: 1px solid rgba(8, 27, 35, 0.15);
   font-size: 1em;
   font-weight: bold;
@@ -345,6 +345,7 @@ h4,
 h5,
 h6 {
   font-family: sans-serif;
+  line-height: 1.5em;
 }
 h1 {
   font-size: 2.074em;
